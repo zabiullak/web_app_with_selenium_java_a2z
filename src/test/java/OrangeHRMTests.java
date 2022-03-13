@@ -1,4 +1,6 @@
+import annotations.FrameworkAnnotation;
 import constants.FrameworkConstants;
+import enums.CategoryType;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -17,7 +19,8 @@ public final class OrangeHRMTests extends BaseTest{
 
     private OrangeHRMTests(){}
 
-    @Test(dataProvider = "getTestData", dataProviderClass = DataProvidersUtils.class)
+    @Test
+    @FrameworkAnnotation(author = "zabiulla", category = {CategoryType.REGRESSION})
     public void loginLogoutTest(Map<String,String> data) {
         String title = new OrangeHRMLoginPage()
                 .enterUserName(data.get("username")).enterPassWord(data.get("password")).clickLogin()

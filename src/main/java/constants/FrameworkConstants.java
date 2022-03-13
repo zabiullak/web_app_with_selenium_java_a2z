@@ -1,5 +1,8 @@
 package constants;
 
+import enums.ConfigProperties;
+import utils.PropertyUtils;
+
 public final  class FrameworkConstants {
 
     private FrameworkConstants() {}
@@ -11,10 +14,10 @@ public final  class FrameworkConstants {
     private static final String CONFIGFILEPATH = RESOURCESPATH+"/config/config.properties";
     //private static final String JSONCONFIGFILEPATH = RESOURCESPATH + "/config/config.json";
     private static final String EXCELPATH = RESOURCESPATH+"/excel/testdata.xlsx";
-    //private static final String RUNMANGERSHEET = "RUNMANAGER";
+    private static final String RUNMANGERSHEET = "RUNMANAGER";
     private static final String ITERATIONDATASHEET = "DATA";
-    //private static final String EXTENTREPORTFOLDERPATH = System.getProperty("user.dir")+"/extent-test-output/";
-    //private static String extentReportFilePath = "";
+    private static final String EXTENTREPORTFOLDERPATH = System.getProperty("user.dir")+"/extent-test-output/";
+    private static String extentReportFilePath = "";
 
 
     public static int getExplicitwait() {
@@ -32,4 +35,25 @@ public final  class FrameworkConstants {
     public static String getConfigFilePath() {
         return CONFIGFILEPATH;
     }
+
+    public static String getRunmangerDatasheet() {
+        return RUNMANGERSHEET;
+    }
+
+    public static String getExtentReportFilePath()  {
+        if(extentReportFilePath.isEmpty()) {
+            extentReportFilePath = createReportPath();
+        }
+        return extentReportFilePath;
+    }
+
+    private static String createReportPath()  {
+        if(PropertyUtils.get(ConfigProperties.OVERRIDEREPORTS).equalsIgnoreCase("no")) {
+            return EXTENTREPORTFOLDERPATH+System.currentTimeMillis()+"/index.html";
+        }
+        else {
+            return EXTENTREPORTFOLDERPATH+"/index.html";
+        }
+    }
+
 }
