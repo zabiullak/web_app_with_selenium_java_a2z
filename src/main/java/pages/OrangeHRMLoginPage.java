@@ -1,8 +1,12 @@
 package pages;
 
+import driver.DriverManager;
+import enums.ConfigJson;
+import enums.ConfigProperties;
 import enums.WaitStrategy;
 import org.openqa.selenium.By;
 import utils.DecodeUtils;
+import utils.JsonUtils;
 
 public final class OrangeHRMLoginPage extends BasePage{
     private final By textboxUsername = By.id("txtUsername");
@@ -29,4 +33,8 @@ public final class OrangeHRMLoginPage extends BasePage{
         return getPageTitle();
     }
 
+    public OrangeHRMLoginPage navigateToURL() {
+        DriverManager.getDriver().get(JsonUtils.get(ConfigJson.ORANGEHRMTESTURL));
+        return this;
+    }
 }

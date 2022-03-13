@@ -22,7 +22,7 @@ public final class Driver {
             } catch (MalformedURLException e) {
                 throw new BrowserInvocationFailedException("Please check the capabilities of browser");
             }
-            DriverManager.getDriver().get(PropertyUtils.get(ConfigProperties.URL));
+            //DriverManager.getDriver().get(PropertyUtils.get(ConfigProperties.URL));
         }
     }
 
