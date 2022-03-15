@@ -6,4 +6,4 @@
 # giving control access to config.properties/ .json /and testData.xlsx file
 # parallel execution
 # good way of handling Exceptions
-
+# implemented Sikuli library to automate based on Graphics
