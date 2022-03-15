@@ -2,7 +2,6 @@ package pages;
 
 import driver.DriverManager;
 import enums.ConfigJson;
-import enums.ConfigProperties;
 import enums.WaitStrategy;
 import org.openqa.selenium.By;
 import utils.DecodeUtils;

@@ -6,10 +6,9 @@
         <listener class-name="listeners.ListenerClass"></listener>
         <listener class-name="listeners.MethodInterceptor"></listener>
     </listeners>
-    <test thread-count="1" name="Test" parallel="methods">
+    <test thread-count="2" name="Test">
         <classes>
-            <class name="OrangeHRMTests"></class>
-            <class name="AmozonDemoTest"></class>
+
         </classes>
     </test>
 </suite>

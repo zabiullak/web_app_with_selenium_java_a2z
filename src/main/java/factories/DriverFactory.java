@@ -32,6 +32,7 @@ public final  class DriverFactory {
             else {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
+                //driver.manage().window().maximize();
             }
         }
         else if(browser.equalsIgnoreCase("firefox")) {

@@ -15,7 +15,7 @@ public final class DataProvidersUtils {
 
     private static List<Map<String,String>> list = new ArrayList<>();
 
-    @DataProvider(name = "getTestData" ,parallel = true)
+    @DataProvider(name = "getTestData" ,parallel = false)
     public static Object[] getData(Method m){
         String testname = m.getName();
 

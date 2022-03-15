@@ -1,8 +1,6 @@
 {
-
-
 	"orangehrmtesturl"	:	"https://opensource-demo.orangehrmlive.com/index.php/auth/login",
 	"amazontesturl"		: 	"https://amazon.in",
-	"dommytesturl"		: 	"https://hhii.com"
-
+	"dommytesturl"		: 	"https://hhii.com",
+	"guru99fileupload"	: 	"https://demo.guru99.com/test/image_upload/index.php"
 }

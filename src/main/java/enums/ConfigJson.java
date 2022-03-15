@@ -2,5 +2,6 @@ package enums;
 
 public enum ConfigJson {
     AMAZONTESTURL,
-    ORANGEHRMTESTURL
+    ORANGEHRMTESTURL,
+    GURU99FILEUPLOAD
 }
