@@ -1,8 +1,8 @@
 import annotations.FrameworkAnnotation;
+import base.BaseTest;
 import enums.CategoryType;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
-import pages.OrangeHRMLoginPage;
 import pages.SikuliPage;
 
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
 *
 *
 * */
-public final class SikuliDemo extends BaseTest{
+public final class SikuliDemo extends BaseTest {
 
     private SikuliDemo(){}
 

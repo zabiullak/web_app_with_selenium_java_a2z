@@ -6,6 +6,7 @@ import enums.WaitStrategy;
 import org.openqa.selenium.By;
 import utils.DecodeUtils;
 import utils.JsonUtils;
+import utils.Log;
 
 public final class OrangeHRMLoginPage extends BasePage{
     private final By textboxUsername = By.id("txtUsername");
@@ -25,6 +26,7 @@ public final class OrangeHRMLoginPage extends BasePage{
     }
     public OrangeHRMHomePage clickLogin() {
         click(buttonLogin, WaitStrategy.PRESENCE, "Login Button");
+        Log.info("logged into HRM Home Page");
         return new OrangeHRMHomePage();
     }
 
@@ -34,6 +36,7 @@ public final class OrangeHRMLoginPage extends BasePage{
 
     public OrangeHRMLoginPage navigateToURL() {
         DriverManager.getDriver().get(JsonUtils.get(ConfigJson.ORANGEHRMTESTURL));
+        Log.info("navigated to OrangeHRM Paga");
         return this;
     }
 }

@@ -4,6 +4,7 @@ import annotations.FrameworkAnnotation;
 import org.testng.*;
 import reports.ExtentReport;
 import reports.FrameworkLogger;
+import utils.Log;
 
 import java.util.Arrays;
 
@@ -19,6 +20,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
     @Override
     public void onStart(ISuite suite) {
         ExtentReport.initReports();
+
     }
 
     /**
@@ -47,6 +49,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
                 .author());
         ExtentReport.addCategories(result.getMethod().getConstructorOrMethod().getMethod().getAnnotation(FrameworkAnnotation.class)
                 .category());
+        Log.info(result.getMethod().getMethodName() +" test is starting.");
     }
 
     /**
@@ -59,6 +62,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
     public void onTestSuccess(ITestResult result) {
         //ExtentLogger.pass(result.getMethod().getMethodName() +" is passed");
         FrameworkLogger.log(PASS,result.getMethod().getMethodName() +" is passed");
+        Log.info(result.getMethod().getMethodName() + "test is succeed.");
     }
 
     /**
@@ -71,7 +75,8 @@ public class ListenerClass implements ITestListener, ISuiteListener {
     public void onTestFailure(ITestResult result) {
         FrameworkLogger.log(FAIL,result.getMethod().getMethodName() +" is failed");
         FrameworkLogger.log(FAIL,result.getThrowable().toString());
-        FrameworkLogger.log(FAIL, Arrays.toString(result.getThrowable().getStackTrace()));
+        Log.error(result.getMethod().getMethodName() + "test is failed.");
+        //FrameworkLogger.log(FAIL, Arrays.toString(result.getThrowable().getStackTrace()));
     }
 
     /**
@@ -106,7 +111,8 @@ public class ListenerClass implements ITestListener, ISuiteListener {
      */
     @Override
     public void onStart(ITestContext context) {
-
+        Log.info("Iam on Start method -> "+ context.getName());
+        //context.setAttribute("WebDriver",this.driver);
     }
 
     /**
@@ -117,6 +123,7 @@ public class ListenerClass implements ITestListener, ISuiteListener {
      */
     @Override
     public void onFinish(ITestContext context) {
+        Log.info("Iam in onFinish method -> "+ context.getName());
 
     }
 }
