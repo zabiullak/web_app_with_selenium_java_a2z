@@ -6,8 +6,9 @@
         <listener class-name="listeners.ListenerClass"></listener>
         <listener class-name="listeners.MethodInterceptor"></listener>
     </listeners>
-    <test thread-count="2" name="Test">
+    <test thread-count="4" name="Test" parallel="true">
         <classes>
+            <class name="OrangeHRMTests"></class>
 
         </classes>
     </test>

@@ -1,0 +1,79 @@
+[INFO ] 2022-03-18 11:56:46.689 [main] Log - Iam on Start method -> All Test Suite
+[INFO ] 2022-03-18 11:56:47.309 [TestNG-PoolService-2] Log - Tests are Started ***>
+[INFO ] 2022-03-18 11:56:47.309 [TestNG-PoolService-0] Log - Tests are Started ***>
+[INFO ] 2022-03-18 11:56:47.309 [TestNG-PoolService-1] Log - Tests are Started ***>
+[INFO ] 2022-03-18 11:56:49.900 [TestNG-PoolService-2] Log - loginLogoutTest test is starting.
+[INFO ] 2022-03-18 11:56:49.986 [TestNG-PoolService-0] Log - loginLogoutTest test is starting.
+[INFO ] 2022-03-18 11:56:53.089 [TestNG-PoolService-1] Log - loginLogoutTest test is starting.
+[INFO ] 2022-03-18 11:56:56.411 [TestNG-PoolService-2] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 11:56:56.729 [TestNG-PoolService-0] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 11:57:00.976 [TestNG-PoolService-1] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 11:57:06.211 [TestNG-PoolService-1] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 11:57:06.444 [TestNG-PoolService-1] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 11:57:07.111 [TestNG-PoolService-2] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 11:57:07.175 [TestNG-PoolService-2] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 11:57:07.244 [TestNG-PoolService-1] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 11:57:07.308 [TestNG-PoolService-0] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 11:57:07.382 [TestNG-PoolService-0] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 11:57:07.389 [TestNG-PoolService-1] Log - loginLogoutTesttest is succeed.
+[INFO ] 2022-03-18 11:57:07.389 [TestNG-PoolService-1] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 11:57:10.219 [TestNG-PoolService-0] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 11:57:10.226 [TestNG-PoolService-0] Log - loginLogoutTesttest is succeed.
+[INFO ] 2022-03-18 11:57:10.227 [TestNG-PoolService-0] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 11:57:10.367 [TestNG-PoolService-2] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 11:57:10.374 [TestNG-PoolService-2] Log - loginLogoutTesttest is succeed.
+[INFO ] 2022-03-18 11:57:10.376 [TestNG-PoolService-2] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 11:57:11.033 [TestNG-PoolService-0] Log - Tests are Started ***>
+[INFO ] 2022-03-18 11:57:11.033 [TestNG-PoolService-1] Log - Tests are Started ***>
+[INFO ] 2022-03-18 11:57:12.187 [TestNG-PoolService-0] Log - newTest test is starting.
+[INFO ] 2022-03-18 11:57:15.915 [TestNG-PoolService-1] Log - newTest test is starting.
+[INFO ] 2022-03-18 11:57:16.965 [TestNG-PoolService-0] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 11:57:25.899 [TestNG-PoolService-1] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 11:57:26.946 [TestNG-PoolService-0] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 11:57:26.991 [TestNG-PoolService-0] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 11:57:30.480 [TestNG-PoolService-0] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 11:57:30.490 [TestNG-PoolService-0] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 11:57:31.771 [TestNG-PoolService-1] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 11:57:32.503 [TestNG-PoolService-1] Log - clicked on Welcome Page
+[ERROR] 2022-03-18 11:57:52.986 [TestNG-PoolService-1] Log - newTesttest is failed.
+[INFO ] 2022-03-18 11:57:52.988 [TestNG-PoolService-1] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 11:57:53.788 [main] Log - Iam in onFinish method -> All Test Suite
+[INFO ] 2022-03-18 12:11:30.463 [main] Log - Iam on Start method -> Test
+[INFO ] 2022-03-18 12:11:31.268 [TestNG-PoolService-2] Log - Tests are Started ***>
+[INFO ] 2022-03-18 12:11:31.268 [TestNG-PoolService-1] Log - Tests are Started ***>
+[INFO ] 2022-03-18 12:11:31.268 [TestNG-PoolService-0] Log - Tests are Started ***>
+[INFO ] 2022-03-18 12:11:33.855 [TestNG-PoolService-0] Log - loginLogoutTest test is starting.
+[INFO ] 2022-03-18 12:11:33.863 [TestNG-PoolService-2] Log - loginLogoutTest test is starting.
+[INFO ] 2022-03-18 12:11:37.641 [TestNG-PoolService-1] Log - loginLogoutTest test is starting.
+[INFO ] 2022-03-18 12:11:38.914 [TestNG-PoolService-2] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 12:11:39.125 [TestNG-PoolService-0] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 12:11:43.533 [TestNG-PoolService-0] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 12:11:43.597 [TestNG-PoolService-0] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 12:11:43.759 [TestNG-PoolService-1] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 12:11:46.129 [TestNG-PoolService-2] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 12:11:46.186 [TestNG-PoolService-2] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 12:11:47.379 [TestNG-PoolService-0] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 12:11:47.484 [TestNG-PoolService-0] Log - loginLogoutTesttest is succeed.
+[INFO ] 2022-03-18 12:11:47.485 [TestNG-PoolService-0] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 12:11:47.549 [TestNG-PoolService-1] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 12:11:48.290 [TestNG-PoolService-1] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 12:11:49.375 [TestNG-PoolService-2] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 12:11:49.383 [TestNG-PoolService-2] Log - loginLogoutTesttest is succeed.
+[INFO ] 2022-03-18 12:11:49.383 [TestNG-PoolService-2] Log - Tests are Ended !!!<
+[ERROR] 2022-03-18 12:12:08.644 [TestNG-PoolService-1] Log - loginLogoutTesttest is failed.
+[INFO ] 2022-03-18 12:12:08.644 [TestNG-PoolService-1] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 12:12:09.604 [TestNG-PoolService-0] Log - Tests are Started ***>
+[INFO ] 2022-03-18 12:12:09.604 [TestNG-PoolService-1] Log - Tests are Started ***>
+[INFO ] 2022-03-18 12:12:10.789 [TestNG-PoolService-0] Log - newTest test is starting.
+[INFO ] 2022-03-18 12:12:14.113 [TestNG-PoolService-1] Log - newTest test is starting.
+[INFO ] 2022-03-18 12:12:15.340 [TestNG-PoolService-0] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 12:12:20.620 [TestNG-PoolService-1] Log - navigated to OrangeHRM Paga
+[INFO ] 2022-03-18 12:12:21.129 [TestNG-PoolService-0] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 12:12:21.174 [TestNG-PoolService-0] Log - clicked on Welcome Page
+[INFO ] 2022-03-18 12:12:22.838 [TestNG-PoolService-0] Log - logout from the Oranage HRM Page
+[INFO ] 2022-03-18 12:12:22.848 [TestNG-PoolService-0] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 12:12:25.278 [TestNG-PoolService-1] Log - logged into HRM Home Page
+[INFO ] 2022-03-18 12:12:26.006 [TestNG-PoolService-1] Log - clicked on Welcome Page
+[ERROR] 2022-03-18 12:12:46.419 [TestNG-PoolService-1] Log - newTesttest is failed.
+[INFO ] 2022-03-18 12:12:46.424 [TestNG-PoolService-1] Log - Tests are Ended !!!<
+[INFO ] 2022-03-18 12:12:47.217 [main] Log - Iam in onFinish method -> Test

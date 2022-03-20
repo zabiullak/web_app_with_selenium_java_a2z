@@ -1,4 +1,5 @@
 import annotations.FrameworkAnnotation;
+import base.BaseTest;
 import enums.CategoryType;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
@@ -6,7 +7,7 @@ import pages.AmazonHomePage;
 
 import java.util.Map;
 
-public final class AmozonDemoTest extends BaseTest{
+public final class AmozonDemoTest extends BaseTest {
 
     private AmozonDemoTest(){}
 

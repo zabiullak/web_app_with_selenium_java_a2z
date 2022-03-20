@@ -4,3 +4,10 @@
             <artifactId>sikulixapi</artifactId>
             <version>1.1.0</version>
         </dependency>
+
+
+        Todo  List :>
+        > run via Selenium grid.
+        > implement Docker file
+        > ELK Stack - Kibana
+

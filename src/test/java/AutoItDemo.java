@@ -1,7 +1,6 @@
-import org.testng.annotations.Test;
-import java.util.Map;
+import base.BaseTest;
 
-public final class AutoItDemo extends BaseTest{
+public class AutoItDemo extends BaseTest {
 
     private AutoItDemo(){}
 
